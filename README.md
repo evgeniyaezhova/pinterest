@@ -13,10 +13,10 @@ By the end of the production period, this app will, at a minimum, satisfy the fo
 
 # Design Docs
 
-- [React Components](./components.md)
-- [API Endpoints](./api_endpoints.md)
-- [DB Schema](./schema.md)
-- [Sample State](./sample_state.md)
+- [React Components](./docs/components.md)
+- [API Endpoints](./docs/api_endpoints.md)
+- [DB Schema](./docs/schema.md)
+- [Sample State](./docs/sample_state.md)
 
 ## Bonus
 
