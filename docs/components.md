@@ -1,46 +1,26 @@
 # Component Hierarchy
 
-**Homepage**
-* AuthNavBar
-
 **AuthFormContainer**
 * AuthForm
-* AuthNavBar
 
-**UserIndex**
-* UserIndexItem
-* UserSearchForm
+**NavBar**
+* SearchBar
+* Links
+
+**Home**
 * NavBar
+* Pins
 
-**UserDetailContainer**
-* UserDetail
+**UserPage**
 * NavBar
+* UserStats
+* UserBoards
+* UserPins
 
-**ThreadIndexContainer**
-* ThreadIndex
+**SearchResultPage**
 * NavBar
+* UsersStats
 
-**ThreadIndex**
-* ThreadIndexItem
-
-**ThreadDetailContainer**
-* ThreadDetail
-* NavBar
-
-**ThreadDetail**
-* MessageIndex
-* MessageSubmitForm
-
-**MessageIndex**
-* MessageIndexItem
-
-**QuestionIndexContainer**
-* QuestionIndex
-* QuestionForm
-* NavBar
-
-**QuestionIndex**
-* QuestionIndexItem
 
 # Routes
 
@@ -50,7 +30,4 @@
 | '/sign-up'  | 'AuthFormContainer'  |
 | '/sign-in'  | 'AuthFormContainer'  |
 | '/users'  | 'UserIndex'  |
-| '/users/:userId'  | 'UserDetailContainer'  |
-| '/threads'  | 'ThreadIndex'  |
-| '/messages/:threadId'  | 'ThreadDetailContainer'  |
-| '/questions'  | 'QuestionIndexContainer'  |
+| '/users/:userId'  | 'UserPage'  |
