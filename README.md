@@ -12,6 +12,7 @@ By the end of the production period, this app will, at a minimum, satisfy the fo
 
 # Design Docs
 
+- [Wireframes](./docs/wireframes)
 - [React Components](./docs/components.md)
 - [API Endpoints](./docs/api_endpoints.md)
 - [DB Schema](./docs/schema.md)
