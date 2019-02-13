@@ -6,20 +6,20 @@
         username: 'firstOne'
       },
 
-  boards:
-      {
+  boards: {
+     23: {
         id: 23,
         name: "food",
         description: "",
         pin_id: 4, 22, 56
       },
-      {
+     37: {
         id: 37,
         name: "fashion",
         description: "outfit inspiration",
         pin_id: 31, 55, 79
       },
-
+  },
   pins:
       {
         id: 22,
