@@ -5,14 +5,14 @@
 
 **NavBar**
 * SearchBar
-* Links
+* HomePage
+* UserPage
 
 **Home**
 * NavBar
 * Pins
 
 **UserPage**
-* NavBar
 * UserStats
 * UserBoards
 * UserPins
@@ -29,5 +29,8 @@
 | '/'  | 'Homepage'  |
 | '/sign-up'  | 'AuthFormContainer'  |
 | '/sign-in'  | 'AuthFormContainer'  |
-| '/users'  | 'UserIndex'  |
-| '/users/:userId'  | 'UserPage'  |
+| '/:userName'  | 'UserPage'  |
+| '/:userName/boards'  | 'Board'  |
+| '/:userName/:boardName'  | 'Board'  |
+| '/:userName/pins'  | 'Pins'  |
+| '/pin/:pinId'  | 'Pins'  |

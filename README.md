@@ -1,5 +1,4 @@
-# pinterest (to be renamed)
-
+# PinTwin
 
 # Minimum Viable Product
 
@@ -20,9 +19,32 @@ By the end of the production period, this app will, at a minimum, satisfy the fo
 
 ## Implementation timeline
 
-No clue at this point to be honest. To be updated over the weekend once think this through more thoroughly. 
+## Phase 1: Create the database for Users, Pins, Boards (1-2 days)
+
+## Phase 2: Create the Home page (2-3 days)
+* **Objective:** Home page will display the navigation bar and the pins neatly organized in rows.
+- Create NavBar that includes a logo, a SearchBar, and links to Home and User profile.
+- Display pins under the NavBar.
+- When pin is hovered over - the imaged darkens and a clickable link to the appropriate website shows.
+
+## Phase 3: User Page (1 day)
+* **Objective:** User page will display tabs with boards and pins.
+- User page displays name and profile photo
+- User page displays boards created by user
+- User page displays pins created by user
+
+## Phase 3: Search(1 day)
+* **Objective:** Make users searchable.
+
+## Phase 3: Pins and Boards(3-4 days)
+* **Objective:** User can create boards. User can create pins and add them to the boards. User can save other users' pins to boards.
+- Add a "save" button to the hovered over image.
+- User can search for boards by name
+
+## Phase 4: Login (2 days )
+* **Objective:** User can create a profile and login/ logout from the website.
+
 
 ## Bonus
-
-- User can save pins created by other users
+- Users are able to follow other users
 - User can also search for "topics" to follow
